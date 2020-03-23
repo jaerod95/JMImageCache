@@ -11,7 +11,9 @@ let package = Package(
         .target(
             name: "JMImageCache",
             dependencies: [],
-            path: "JMImageCache"
+            path: ".",
+            sources: ["JMImageCache.h", "JMImageCache.m", "UIImageView+JMImageCache.h", "UIImageView+JMImageCache.m"],
+            publicHeadersPath: "include"
         )
     ]
 )
